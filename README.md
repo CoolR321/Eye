@@ -3,7 +3,7 @@
 
 
 
-![](/Users/hcr/Desktop/%E5%A4%A7%E4%B8%89%E4%B8%8A/CPP%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/img/Eye.png)
+![](./img/Eye.png)
 
 
 
@@ -19,7 +19,7 @@ g++ main.cpp && ./a.out
 
 - 启动系统
 
-![](/Users/hcr/Desktop/%E5%A4%A7%E4%B8%89%E4%B8%8A/CPP%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/img/Init.png)
+![](./Init.png)
 
 
 
