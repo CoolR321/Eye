@@ -14,6 +14,13 @@ Show::Show(Manage m){
 void Show::update(Manage m){
     __m = m;
 }
+// 窗口z—index比较
+bool cpm_z(Window a, Window b){
+    if(a.get_coordinate()[4] < b.get_coordinate()[4])
+        return true;
+    else
+        return false;
+}
 // 屏幕输出显示当前窗口系统的窗口
 void Show::show_window(){
     // 屏幕显示数组-初始化为'-'

@@ -25,7 +25,7 @@ int main(){
     Manage m;
     Show s(m);
     // 屏幕输出
-    system("clear");
+    system("clear");  // 适用于macOS系统
     show_interface();
     s.show_window();
     show_command();
@@ -62,7 +62,7 @@ int main(){
         }
         // 刷新页面
         s.update(m);
-        system("clear");
+        system("clear");  // 适用于macOS系统
         show_interface();
         s.show_window();
         show_command();

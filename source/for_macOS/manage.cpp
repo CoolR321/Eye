@@ -29,13 +29,6 @@ void Manage::delete_window(int num){
         }
     }
 }
-// 窗口z—index比较
-bool cpm_z(Window a, Window b){
-    if(a.get_coordinate()[4] < b.get_coordinate()[4])
-        return true;
-    else
-        return false;
-}
 // 修改指定窗口尺寸-只要修改了就会显示在最顶层
 void Manage::resize_window(int num, int t, int r, int b, int l){
     vector<Window>::iterator it;
@@ -57,7 +50,7 @@ void Manage::move_window(int num, int to_right, int to_bottom){
             vector<int> v = it->get_coordinate();
             int top = v[0]+to_bottom < 0 ? 0 : v[0]+to_bottom;
             int right = v[1]+to_right < 0 ? 0 : v[1]+to_right;
-            int bottom = v[2]+to_bottom < 0 ? 0 : v[2]+to_bottom;
+            int bottom = v[2]+to_bottom < 0 ? 0: v[2]+to_bottom;
             int left = v[3]+to_right < 0 ? 0: v[3]+to_right;
             int z = max + 1;
             it->resize_coordinate(top, right, bottom, left, z);

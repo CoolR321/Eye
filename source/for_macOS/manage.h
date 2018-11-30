@@ -4,6 +4,9 @@
 // Student Number: 2016301500272
 //
 
+#ifndef EYE_MANAGE_H
+#define EYE_MANAGE_H
+
 // manage.h -- 窗口管理类头文件
 #include "window.cpp"
 class Manage{
@@ -26,3 +29,5 @@ public:
     // 更新窗口数组
     void update_window(vector<Window> v);
 };
+
+#endif //EYE_MANAGE_H

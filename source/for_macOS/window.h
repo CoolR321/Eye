@@ -4,6 +4,9 @@
 // Student Number: 2016301500272
 //
 
+#ifndef EYE_WINDOW_H
+#define EYE_WINDOW_H
+
 // window.h -- 窗口类头文件
 #include "main.h"
 class Window{
@@ -33,3 +36,5 @@ public:
     // 运算符重载-判断两个窗口是否为同一个窗口
     friend bool operator == (Window a, Window b);
 };
+
+#endif //EYE_WINDOW_H

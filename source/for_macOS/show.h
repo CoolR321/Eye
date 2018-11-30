@@ -4,6 +4,9 @@
 // Student Number: 2016301500272
 //
 
+#ifndef EYE_SHOW_H
+#define EYE_SHOW_H
+
 // show.h -- 屏幕输出类头文件
 #include "manage.cpp"
 class Show{
@@ -17,3 +20,5 @@ public:
     // 屏幕输出显示当前窗口系统的窗口
     void show_window();
 };
+
+#endif //EYE_SHOW_H
